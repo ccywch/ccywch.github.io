@@ -1,0 +1,25 @@
+safe: false
+pygments: true
+lsi: false
+permalink: /:categories/:title
+url: https://ryanseys.com
+markdown: maruku
+port: 4000
+future: false
+exclude:
+- README.md
+- params.json
+- Gemfile
+- Gemfile.lock
+
+assets:
+  js_compressor:  uglifier
+  css_compressor: yui
+  sources:
+    - _assets/css
+    - _assets/js
+  debug: false
+
+html-compress:
+  exclude: {}
+  debug: false
